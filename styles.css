@@ -77,7 +77,7 @@ section.counters {
 
 @media (min-width: 351px) and (max-width: 600px) {
     section.main {
-        height: 50%;
+        /* height: 50%; */
         font-size: 35px;
         text-align: center;
     }
@@ -99,10 +99,14 @@ section.counters {
 }
 
 @media (max-width: 350px) {
+    .container {
+        align-items: center;
+    }
     section.main {
         height: 50%;
-        font-size: 20px;
+        font-size: 35px;
         text-align: center;
+        width: 100px;
     }
 
     section.counters {
@@ -113,6 +117,7 @@ section.counters {
 
     .counters .counter {
         width: 100%;
+        padding: 20px;
     }
 
     .count-value {
